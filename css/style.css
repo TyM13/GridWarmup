@@ -1,17 +1,19 @@
-header{   
+#page_header{   
     display: grid;
-    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr;
 }
 
-nav{
-
-    justify-items: end;
-
+#page_header>nav{
+justify-self: end;
 }
+
 
 img{
-    justify-items: start;
-    align-items: start;
     width: 20vw;
     height: 40vh;
+}
+
+#main_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
