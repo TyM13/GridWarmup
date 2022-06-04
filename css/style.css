@@ -1,0 +1,17 @@
+header{   
+    display: grid;
+    grid-auto-flow: column;
+}
+
+nav{
+
+    justify-items: end;
+
+}
+
+img{
+    justify-items: start;
+    align-items: start;
+    width: 20vw;
+    height: 40vh;
+}
